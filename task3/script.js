@@ -12,15 +12,6 @@ const findBestEmployee = function(employees) {
    
 };
 
-// const findBestEmployee = function (employees){
-//     let bestKey = '';
-//     let bestValue = 0 ;
-//     for (let key in employees){
-//         if(employees.value )
-//     }
-
-// }
-
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
  */
