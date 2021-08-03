@@ -11,7 +11,8 @@ const products = [
 const getAllPropValues = function(arr, prop) {
     let values = [];
     for(let obj of arr){
-        values.push(obj[prop]);
+        const value = obj[prop];
+        values.push(value);
     }
     return values;
 };
@@ -19,5 +20,5 @@ const getAllPropValues = function(arr, prop) {
  * Вызовы функции для проверки работоспособности твоей реализации.
  */
 console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроид', 'Захват']
-console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
-console.log(getAllPropValues(products, 'category')); // []
+// console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
+// console.log(getAllPropValues(products, 'category')); // []
